@@ -13,9 +13,11 @@ body {
         .login-container {
             background-color: rgba(255, 255, 255, 0.3);
             padding: 20px;
+            margin-left: 25%;
+            margin-top: 25%;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 80%;
+            width: 50%;
             display: block;
             justify-content: center;
             align-items: center;
@@ -862,8 +864,19 @@ body {
             }
         }
 
-        .for {
+        .for .calendar {
             align-items: center;
             justify-content: center;
             text-align: center;
+        }
+
+        .calendar{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 10%;
+            margin-bottom: 10%;
         }
